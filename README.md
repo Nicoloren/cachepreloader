@@ -28,9 +28,13 @@ You can store your own configuration for faster setup.
 Create a file named config.cfg in the same directory than CachePreloader.exe.
 
 Add these lines to the file :
+
 SITE=http://www.my-wordpress.com
+
 CONFIG=.img, .png, .gif, .jpeg, .jpg, /tag/, /author/, /comment-subscriptions, /wp-login, /wp-admin, /feed/, /wp-content/, /trackback/, /archives/
 
+
+----------------------------
   * SITE : your website url
   * CONFIG : your exception list
 
